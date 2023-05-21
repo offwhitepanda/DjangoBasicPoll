@@ -1,3 +1,19 @@
-<h1>Welcome, please navigate to one of the following:</h1>
-<h3><a href="/polls/">Polls</a></h3>
-<h3><a href="/admin/">Admin</a></h3>
+{% load static %}
+
+<div id="pageTitle">
+    <h1>Polls App</h1>
+</div>
+
+<link rel="stylesheet" href="{% static 'homepage/style.css' %}">
+
+<div id="greaterOuterDiv">
+    <div id="outerDiv">
+        <div id="headerDiv">
+            <h2>Welcome, please navigate to one of the following:</h2>
+        </div>
+        <div id="pagesDive">
+            <h3><a href="/polls/">Polls</a></h3>
+            <h3><a href="/admin/">Admin</a></h3>
+        </div>
+    </div>
+</div>
