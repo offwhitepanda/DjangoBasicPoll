@@ -1,4 +1,3 @@
-polls/models.py
 import datetime
 
 from django.db import models
